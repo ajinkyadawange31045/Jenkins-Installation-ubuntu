@@ -58,29 +58,23 @@ To check the initial password, use the cat command as indicated below:
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
-
+We will use the above password later on.
 All Set! You can now start automating...
 
-Then when you type your <ec2-instance-ip>:jenkins-port-number(i.e.8080), we get a page, install required plugins
+
+Then when you type your <ec2-instance-ip>:jenkins-port-number(i.e.8080), we get a page, install required plugins. Before that we need to put the administrative password which we have copied previously.
+
 ![Getting Started](./installing-plugins.png)
 
+
 Then create your own account and and signup
+
 ![Getting Started](./signin%20to%20jenkins.png)
 
+
 There you go! You will see the dashboard page.
+
 ![Getting Started](./dashboard%20page.png)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # 2. How to Configure and Run Jenkins Behind Apache Reverse Proxy?
