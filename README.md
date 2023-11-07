@@ -61,9 +61,14 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 All Set! You can now start automating...
 
+Then when you type your <ec2-instance-ip>:jenkins-port-number(i.e.8080), we get a page, install required plugins
 ![Getting Started](./installing-plugins.png)
+
+Then create your own account and and signup
 ![Getting Started](./signin%20to%20jenkins.png)
 
+There you go! You will see the dashboard page.
+![Getting Started](./dashboard%20page.png)
 
 
 
